@@ -1,4 +1,10 @@
-NOAM CUTS V8.0 — NH CUTZ
+NOAM CUTS V8.1 — NH CUTZ
+
+NOUVEAU EN V8.1 (design « NHCUTZ Glass »)
+- Navigation en verre : tab bar flottante, bouton + rond, feuilles modales.
+- Accueil en widgets (grand chiffre du jour, anneau d'objectif), accent bleu glacier.
+- Animations douces, mode clair/sombre soignés. Aucune donnée ni fonction modifiée.
+- Aperçu sur ordinateur : npm run preview (fausses données).
 
 NOUVEAU EN V8
 - Ouverture instantanée : l'appli s'affiche depuis le cache, puis se met à jour

@@ -42,7 +42,6 @@
 <link rel="apple-touch-startup-image" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait) and (prefers-color-scheme: dark)" href="/splash/launch-750x1334-dark.png?v=80">
 <link rel="apple-touch-startup-image" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait) and (prefers-color-scheme: light)" href="/splash/launch-750x1334-light.png?v=80">
 <title>Noam Cuts</title>
-<script>/* accent choisi (aperçu V8.1 : ?accent=or|glacier|lilas) */(function(){try{var k="noamcuts-accent-v81",p=new URLSearchParams(location.search).get("accent");if(p)localStorage.setItem(k,p);var a=p||localStorage.getItem(k);if(a&&a!=="or")document.documentElement.dataset.accent=a}catch(e){}})()</script>
 <style>
 /* ============================================================
    NOAM CUTS V8.1 — DA « NHCUTZ Glass »
@@ -66,7 +65,7 @@
   --glass-shadow:0 12px 32px -8px rgba(0,0,0,.18),0 2px 6px rgba(0,0,0,.06);
   --solid-nav:#FBFBFA;
   /* couleurs */
-  --accent:#7E5C1E;--on-accent:#FFFFFF;
+  --accent:#2B5C8C;--on-accent:#FFFFFF;
   --green:#1C7438;--red:#C0172F;
   --seg-on:#FFFFFF;--av:linear-gradient(160deg,#3A3A3E,#0E0E10);--av-ink:#FFFFFF;
   --p1:#0B0B0C;--p2:#8E8E93;--p3:#C9C9CE;--p4:var(--accent);
@@ -93,19 +92,11 @@
   --glass-in:inset 0 1px 0 rgba(255,255,255,.14),inset 0 -10px 20px -10px rgba(0,0,0,.4),inset 0 0 0 .5px rgba(255,255,255,.07);
   --glass-shadow:0 16px 40px -10px rgba(0,0,0,.7),0 2px 6px rgba(0,0,0,.4);
   --solid-nav:#1A1A1D;
-  --accent:#E2C17F;--on-accent:#0B0B0C;
+  --accent:#9CC5EE;--on-accent:#0B0B0C;
   --green:#46D98E;--red:#FF6B60;
   --seg-on:rgba(255,255,255,.17);--av:linear-gradient(160deg,#4A4A50,#222226);--av-ink:#FFFFFF;
   --p1:#F5F5F7;--p2:#8E8E93;--p3:#48484C;
 }}
-/* trois accents au choix (?accent=or | glacier | lilas) */
-html[data-accent=glacier]{--accent:#2B5C8C}
-html[data-accent=lilas]{--accent:#5A48C2}
-@media (prefers-color-scheme:dark){
-  html[data-accent=glacier]{--accent:#9CC5EE}
-  html[data-accent=lilas]{--accent:#B6A9FF}
-}
-
 *{box-sizing:border-box}
 html{background:var(--bg)}
 body{margin:0;background:transparent;color:var(--label);font-size:17px;line-height:1.3;letter-spacing:-.012em;-webkit-font-smoothing:antialiased;
