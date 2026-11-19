@@ -1,6 +1,6 @@
 {
   "name": "noam-cuts",
-  "version": "8.0.0",
+  "version": "8.1.0",
   "private": true,
   "type": "module",
   "description": "Noam Cuts — PWA de gestion NH CUTZ (Netlify)",
@@ -10,7 +10,8 @@
     "vapid": "web-push generate-vapid-keys",
     "test": "node --test tests/unit.test.mjs",
     "test:api": "node --test tests/api.test.mjs",
-    "fake": "node tests/fake-services.mjs"
+    "fake": "node tests/fake-services.mjs",
+    "preview": "node scripts/preview-server.mjs"
   },
   "dependencies": {
     "@netlify/blobs": "^10.0.0",

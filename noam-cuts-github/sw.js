@@ -1,7 +1,7 @@
 /* Noam Cuts — service worker V8
    « Cache d'abord » : l'appli s'affiche tout de suite depuis le cache,
    puis se met à jour en arrière-plan (stale-while-revalidate). */
-const VERSION = 'v80';
+const VERSION = 'v81';
 const CACHE = 'noamcuts-' + VERSION;
 const SHELL = [
   '/index.html', '/manifest.json?v=80',
